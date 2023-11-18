@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+   
+}
+
+
+#container , #contain {
+   
+    border-radius: 25px;
+    border: 10px solid black;
+    width: 400px;
+    height: 720px;
+    background-color: white;
+    
+}
+
+#contain {
+    background-color: whitesmoke;
+}
+#begin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    height: 40px;
+    width: 95%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#first , #sec , #third{
+  position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+#sec {
+    width: 20%;
+    justify-content: space-between;
+}
+
+
+#seccer , #seccero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#seccero {
+    width: 15%;
+    margin-right: 0px;
+}
+
+#fii span {
+    height: 30px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 3px;
+    color: #0273C2;
+    
+    
+   
+}
+
+#fii{
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+#sec img , #seccer img {
+    width: 24px;
+    height: 24px;
+    
+}
+
+#seccero img {
+    width: 32px;
+    height: 32px;
+}
+
+#first span {
+    height: 30px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: rgb(71, 157, 81);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 1px 5px;
+}
+
+#third img{
+    position: fixed;
+    width: 140px;
+    height: 40px;
+     top: 37px;
+     right: 45%;
+}
+#master{
+    position: relative;
+}
+#begi , #beggg {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+   position: fixed;
+   top: 70px;
+    left: 36.3%;
+    height: 50px;
+    width: 27.5%;
+    background-color: white;
+    margin: auto;
+    z-index: 1;
+    
+    
+    
+   
+}
+#beggg{
+    background-color: whitesmoke;
+}
+
+
+
+#fist span {
+    height: 30px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 3px;
+    color: #0273C2;
+    
+   
+}
+
+#seccer #sui{
+    animation: rotate 15s linear infinite;
+    width: 34px;
+    height: 34px;
+}
+
+#beg , #be {
+   
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+    height: 40px;
+    width: 95%;
+    margin: auto;
+    margin-top: 45px;
+   
+}
+
+
+
+#fit span {
+    height: 30px;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-left: 3px;
+    color: black;
+    font-weight: 600;
+}
+
+
+#fist input , #fister input{
+    width: 300px;
+    height: 25px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+    background-color: rgba(245, 245, 245, 0);
+    
+
+
+}
+#fist button , #fister button{
+    
+    width: 340px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 18px;
+    background-image: url('find\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: 5px ;
+    background-size: 18px;
+
+}
+
+#fister button{
+    margin-top: 10px;
+    width : 380px;
+    margin-bottom: 25px;
+}
+
+#be{
+align-items: center;
+position: sticky;
+margin-top: 5px;
+}
+
+
+#sec #su{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+#se span {
+    color: #0276c8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#se{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 23%;
+    justify-content: space-between;
+
+}
+
+#b, #boy{
+    display: flex;
+    
+    justify-content: space-between;
+    
+    height: 40px;
+    width: 95%;
+    margin: auto;
+   
+    align-items: center;
+    margin-top: 5px;
+    border-bottom: 2px solid rgb(216, 216, 216);
+   
+
+}
+
+#boo{
+    display: flex;
+    
+    justify-content: space-between;
+    
+    height: 40px;
+    width: 90%;
+    margin: auto;
+   
+    align-items: center;
+    margin-top: 5px;
+    
+   
+
+}
+
+#fist b {
+    color: black;
+   
+}
+#se img{
+    border-radius: 50px;
+    background-color: rgb(177, 177, 177);
+    /* padding: 2px; */
+    margin-left: 45px;
+}
+
+
+
+#boy{
+    border-bottom: none;
+   
+}
+
+#image {
+    width: 37%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    
+}
+#hate {
+    color: #0273C2;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+#main {
+ display: flex;
+flex-wrap: wrap;
+ width: 100%;
+ height: 600px ;
+ overflow-y: scroll;
+
+
+ 
+ /* background-color: red; */
+
+}
+
+#archive , #text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+#text{
+    padding-top: 4px;
+    padding-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* background-color: purple; */
+    height: 70px;
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid rgb(216, 216, 216);
+
+}
+#float span , #text p {
+    color: grey;
+}
+
+#text p {
+    font-size: 14px;
+}
+
+#text #float {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#text #float b {
+    display: inline-block;
+    margin-right: 80px;
+    margin-top: 4px;
+    color: black;
+}
+
+#text img{
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px; 
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
+
+  #menu {
+    width: 90%;
+    height: 70px;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid whitesmoke;
+  }
+
+  #menu img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    padding: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  #menu img:hover{
+    background-color: #0275c873;
+  }
+
+  @keyframes rotate {
+    from{
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+    
+  }
+
+
+  #vic , #vicc , #vicky {
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  #vicky {
+    width: 100%;
+    border-bottom: 2px solid whitesmoke;
+  }
+
+  #vic{
+    margin-bottom: 24px;
+  }
+
+
+  #vico {
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: white;
+    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 24px;
+
+
+  }
+
+#vic #smart , #vico #smart{
+    position: absolute;
+    top: 28px;
+    left: 56px;
+    font-size: 11px;
+}
+#vico #smart{
+    left: 74px;
+}
+
+  #vicc {
+    justify-content: space-between;
+    border-bottom: 1.5px solid whitesmoke;
+    /* border-radius: 15px; */
+    
+
+  }
+
+  #flew  {
+    
+   
+    display: flex;
+  
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+  }
+
+  #fle {
+    display: flex;
+  
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    margin-left: 12px;
+
+  }
+
+  #vic img  , #flew img , #vico img , #fle img{
+    border-radius: 50px;
+    background-color: whitesmoke;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  }
+  #fle img{
+    border: 4px dotted #0276c8;
+  }
+
+  #vic img , #vico img{
+    width: 18px;
+    height: 18px;
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+
+  #vico img{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 27px;
+  }
+
+  #flew p, #fle p {
+    position: absolute;
+    top: 33px;
+    left: 45px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: grey;
+    width: 3px;
+    height: 3px;
+    /* width: 30%; */
+  }
+
+  #fle p {
+    left: 75px;
+  }
+
+  #flew p img {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0);
+
+  }
+
+
+  #vic p , #flew legend , #vico p , #fle legend{
+    margin-bottom: 16px;
+
+  }
+
+  #re {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 23px;
+    margin-bottom: 10px;
+  }
+
+  #play {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+    height: 100%;
+    
+    margin-right: 10px;
+  }
+
+  #play img{
+    width: 24px;
+    height: 24px;
+  }
+
+  #play p {
+    color: gray;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
